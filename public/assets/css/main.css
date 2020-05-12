@@ -1,0 +1,68 @@
+nav {
+    font-family: Righteous;
+}
+
+body {
+    font-family: Open Sans;
+    background-color: rgb(241, 241, 241);
+    background-color: beige;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(31, 31, 31, 0.15) -1px 4px 12px 0px;
+}
+.text-head{
+        font-family: Righteous;
+        margin: 5px auto;
+}
+.text-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text-foot {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+textarea {
+    border: none;
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.textarea_1 {
+    border-right: 5px solid #ccc;
+}
+
+.textarea_2 {
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #c1c1c1;
+}
+label{
+margin: auto 0;
+color:rgba(0, 0, 0, 0.87);
+font-size: 14px;
+line-height: 20px;}
+.ff{
+        margin-right: -57px;
+
+}
