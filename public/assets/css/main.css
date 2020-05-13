@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Akkurat;
+    src: url('/assets/fonts/akkurat-bold.woff2');
+      font-weight: 600;
+}
+@font-face {
+    font-family: Akkurat;
+    src: url('/assets/fonts/akkurat-regular.woff2');
+      font-weight: 400;
+}
 nav {
     font-family: Righteous;
     margin-bottom: 33px;
