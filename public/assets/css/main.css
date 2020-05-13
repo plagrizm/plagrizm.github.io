@@ -1,25 +1,52 @@
 nav {
     font-family: Righteous;
+    margin-bottom: 33px;
+    background-color:#fafafa;
+}
+
+.head {
+    font-family: Akkurat;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    color:#2b2d38;
+    margin-bottom: 20px;
+}
+.sub-head {
+    font-family: Akkurat;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color:#60657b
 }
 
 body {
     font-family: Open Sans;
     background-color: rgb(241, 241, 241);
-    background-color: beige;
+    background-color: #fafafa;
+    
 }
 
 .main-div {
     display: flex;
     flex-direction: column;
-    margin: 100px 100px;
+    margin: 35px 100px;
     border-radius: 15px;
     background-color: white;
     box-shadow: rgba(31, 31, 31, 0.15) -1px 4px 12px 0px;
 }
-.text-head{
-        font-family: Righteous;
-        margin: 5px auto;
+
+.text-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family:Akkurat;
+    font-weight: 600;
+    margin: 5px 0px;
 }
+
 .text-div {
     display: flex;
     flex-direction: row;
@@ -30,8 +57,15 @@ body {
     display: flex;
     flex-direction: row;
     padding: 5px 15px;
-    width: 50%;
     justify-content: space-between;
+}
+
+.left-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
 }
 
 textarea {
@@ -47,8 +81,7 @@ textarea {
     border-right: 5px solid #ccc;
 }
 
-.textarea_2 {
-}
+.textarea_2 {}
 
 textarea:focus {
     outline: none;
@@ -57,12 +90,27 @@ textarea:focus {
 textarea::placeholder {
     color: #c1c1c1;
 }
-label{
-margin: auto 0;
-color:rgba(0, 0, 0, 0.87);
-font-size: 14px;
-line-height: 20px;}
-.ff{
-        margin-right: -57px;
 
+label {
+    margin: auto 0;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#plgrsm-btn {
+    margin-left:-48px ;
+}
+
+#copy-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.54)
+}
+.login{
+    font-family: Akkurat;
+    font-weight: 400;
+    font-size: 15px;
+    /* line-height: 24px; */
 }
