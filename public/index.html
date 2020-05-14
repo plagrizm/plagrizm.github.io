@@ -57,25 +57,33 @@
     </div>
     <div class="sub-head">Plagiarism detectors will never catch you
     </div>
-    <div class="sub-head">Using Unicode Characters 
+    <div class="sub-head">Using Unicode Characters
     </div>
 
+
+
+
+
     <div class="main-div">
-        <div class="text-head">
-          <div style="width: 50%; text-align:center;">Original Text</div>
-          <div style="width: 50%; text-align:center;">Modified Text</div>
-        </div>
+
         <div class="text-div">
-            <textarea
-                placeholder="Plagiarism will rewrite your text. Start by writing or pasting something here and then press Quill It."
-                class="textarea_1" id="" cols="30" rows="10"></textarea>
-            <textarea class="textarea_2" id="" cols="30" rows="10">   </textarea>
+            <div class="col_first">
+                <div style=" text-align:center;">Original Text</div>
+                <textarea
+                    placeholder="Plagiarism will rewrite your text. Start by writing or pasting something here and then press Quill It."
+                    class="textarea_1" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="col_second">
+                <div style=" text-align:center;">Modified Text</div>
+                <textarea class="textarea_2" id="" cols="30" rows="10">   </textarea>
+            </div>
         </div>
         <div class="text-foot">
             <label for=""><span id='char_count'>0</span> Characters</label>
             <button type="button" id='plgrsm-btn' class=" btn btn-success">Plagiarism It</button>
-            <label   title='Copy text' for="">
-                <svg  id="copy-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+            <label title='Copy text' for="">
+                <svg id="copy-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                     <path hidden fill="inherit"
                         d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z">
                     </path>
