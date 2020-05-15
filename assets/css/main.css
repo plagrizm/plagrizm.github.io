@@ -1,17 +1,22 @@
 @font-face {
     font-family: Akkurat;
-    src: url('/assets/fonts/akkurat-bold.woff2');
+    src: url('../fonts/akkurat-bold.woff2');
       font-weight: 600;
 }
 @font-face {
     font-family: Akkurat;
-    src: url('/assets/fonts/akkurat-regular.woff2');
+    src: url('../fonts/akkurat-regular.woff2');
       font-weight: 400;
 }
 nav {
-    font-family: Righteous;
     margin-bottom: 33px;
     background-color:#fafafa;
+}
+.font-r{
+        font-family: Righteous;
+}
+.font-akk{
+    font-family: Akkurat;
 }
 
 .head {
@@ -110,7 +115,7 @@ label {
 }
 
 #plgrsm-btn {
-    margin-left:-48px ;
+    margin-left:-50px ;
 }
 
 #copy-icon {
