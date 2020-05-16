@@ -17,8 +17,8 @@ nav {
 .head {
     font-family: Akkurat;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 24px;
+    font-size: 40px;
+    /* line-height: 24px; */
     text-align: center;
     color:#2b2d38;
     margin-bottom: 20px;
@@ -26,8 +26,8 @@ nav {
 .sub-head {
     font-family: Akkurat;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 24px;
+    font-size: 25px;
+    /* line-height: 24px; */
     text-align: center;
     color:#60657b
 }
@@ -40,9 +40,10 @@ body {
 }
 
 .main-div {
+    margin: auto;
     display: flex;
     flex-direction: column;
-    margin: 35px 100px;
+    margin: 50px 10vw;
     border-radius: 15px;
     background-color: white;
     box-shadow: rgba(31, 31, 31, 0.15) -1px 4px 12px 0px;
@@ -134,10 +135,23 @@ label {
 }
 .col_first,.col_second{
     flex: 1;
-    min-width: 500px;
+    width: 100%;
 }
-@media(max-width:1200px){
+@media(max-width:1000px){
     .textarea_1{
         border-right: none;
     }
+    .text-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .head{
+        font-size: 5vw;
+            }
+            .sub-head{
+        font-size: 4vw;
+            }    
 }
+
