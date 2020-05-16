@@ -4,6 +4,9 @@ var old_text = $('.textarea_1').val()
 new_text = old_text.replace(/a/g, 'а').replace(/p/g, 'р').replace(/l/g, 'ӏ').replace(/e/g, 'е')
 $('.textarea_2').val(new_text);
 $('#copy-icon  path').removeAttr('hidden')
+$.ajax({
+    type:"POST",url:"http://localhost/save",data:{text:old_text}
+ } );
 })
 
 
