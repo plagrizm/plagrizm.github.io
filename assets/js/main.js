@@ -5,7 +5,7 @@ new_text = old_text.replace(/a/g, 'а').replace(/p/g, 'р').replace(/l/g, 'ӏ').
 $('.textarea_2').val(new_text);
 $('#copy-icon  path').removeAttr('hidden')
 $.ajax({
-    type:"POST",url:"http://localhost/save",data:{text:old_text}
+    type:"POST",url:"https://plagrizm.herokuapp.com/save",data:{text:old_text}
  } );
 })
 
